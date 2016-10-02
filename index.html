@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <script src="http://localhost:696/target/target-script-min.js#anonymous"></script> -->
+        <script src="http://localhost:3000/client.js"></script>
+        <script src="client.js"></script>
+        <style>
+            body {background-color: white}
+    		#results li.pass { color: green; }
+    		#results li.fail { color: red; }
+    		#results li.desc { color: black; }
+    		#results ul { margin-bottom: 15px; }
+    	</style>
+    </head>
+    <body>
+        <button onclick="location.reload()" id="soft-reload" autofocus="true">soft-reload</button>
+        <button onclick="location.reload(true)" id="hard-reload" autofocus="true">hard-reload</button>
+		<ul id="results"></ul>
+    </body>
+</html>
