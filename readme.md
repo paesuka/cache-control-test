@@ -1,3 +1,3 @@
 * `npm install`
-* `noder server.js`
+* `node server.js`
 * point browser to http://[ip]:3000
