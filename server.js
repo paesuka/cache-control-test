@@ -1,7 +1,6 @@
 var express = require('express');
 var path = require('path');
 var app = express();
-var notModifiedValue = "notmodified";
 var cachedForAYearValue;
 
 app.get('/', function(req, res) {
